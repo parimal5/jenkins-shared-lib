@@ -1,5 +1,3 @@
-package com.mycompany
-
 class Greeter {
     static void greet(String name) {
         echo "Hello, ${name} from Greeter class!"
