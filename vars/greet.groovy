@@ -1,7 +1,3 @@
-def greet(String name = 'User') {
-    echo "Hello, ${name}! Welcome to Jenkins Shared Libraries."
+def call(String user = 'User'){
+    echo "Hello, ${name}! Welcome to Jenkins Shared Libraries. And this is Call Fucntion"
 }
-def goodbye(String name = 'User') {
-    echo "Hello, ${name}! See you soon."
-}
-
